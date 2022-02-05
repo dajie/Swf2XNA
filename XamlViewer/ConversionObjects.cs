@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Text;
 
 using DDW.Swf;
-using DDW.Vex;
 
 namespace DDW.XamlViewer
 {
@@ -23,5 +22,9 @@ namespace DDW.XamlViewer
 			this.xamlFileName = xamlFileName;
 			this.message = message;
 		}
+	}
+
+	public class VexObject
+	{
 	}
 }

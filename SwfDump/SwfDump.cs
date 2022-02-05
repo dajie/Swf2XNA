@@ -7,7 +7,6 @@ using System.IO;
 using System.CodeDom.Compiler;
 using DDW.Swf;
 using DDW.Vex;
-using DDW.VexTo2DPhysics;
 
 namespace DDW.SwfDump
 {
@@ -46,8 +45,8 @@ namespace DDW.SwfDump
 				{
 					StringWriter sw = new StringWriter();
 					IndentedTextWriter w = new IndentedTextWriter(sw);
-//					scu.Dump(w);
-//					Console.WriteLine(sw.ToString());
+					scu.Dump(w);
+					Console.WriteLine(sw.ToString());
                     
                     SwfToVex s2v = new SwfToVex();
                     VexObject vo = s2v.Convert(scu);

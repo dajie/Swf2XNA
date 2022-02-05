@@ -2,11 +2,14 @@
 
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 using System.Xml;
 using System.IO;
 
 using DDW.Vex;
+using Color = System.Drawing.Color;
+using Point = System.Drawing.Point;
 
 namespace DDW.Xaml
 {

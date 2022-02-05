@@ -1,0 +1,3 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=7daf775b_002D4772_002D473f_002D81d6_002D608b4de681f2_0023VexTo2DPhysics/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=d5d6310e_002D2d9d_002D4931_002D8d3b_002D4574f6625c6a_0023VexPipelineReader/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

@@ -56,10 +56,6 @@
       <Project>{04BB0485-133C-4B56-94C0-D1D9B3D6EC95}</Project>
       <Name>SwfFormat</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VexTo2DPhysics\VexTo2DPhysics.csproj">
-      <Project>{7DAF775B-4772-473F-81D6-608B4DE681F2}</Project>
-      <Name>VexTo2DPhysics</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Vex\Vex.csproj">
       <Project>{9E0E5CBD-E7FC-4BD6-A9B0-DEEE4BA576C7}</Project>
       <Name>Vex</Name>

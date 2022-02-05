@@ -55,6 +55,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamlWriter.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vex\Vex.csproj">
+      <Project>{9e0e5cbd-e7fc-4bd6-a9b0-deee4ba576c7}</Project>
+      <Name>Vex</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
