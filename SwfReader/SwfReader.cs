@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.CodeDom.Compiler;
 using System.IO;
 using ICSharpCode.SharpZipLib.Zip.Compression;
+
 namespace DDW.Swf
 {
 	public class SwfReader

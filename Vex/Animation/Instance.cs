@@ -4,13 +4,8 @@ using System.Text;
 
 namespace DDW.Vex
 {
-	public class Instance : IVexObject
-	{
-		public Matrix matrix;
-
-		public Instance()
-		{
-			this.matrix = Matrix.Identitiy;
-		}
-	}
+    public partial class Instance : IVexObject
+    {
+        public Matrix matrix = Matrix.Identity;
+    }
 }

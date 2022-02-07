@@ -9,7 +9,7 @@ using System.ComponentModel;
 
 namespace DDW.Vex
 {
-	public class Instance : IInstance
+	public partial class Instance : IInstance
     {
         [XmlIgnore]
 		public uint SortOrder { get { return 99; } }

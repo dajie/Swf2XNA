@@ -30,3 +30,4 @@ Thumbs.db
 **/Content/exports/*
 **/Content/obj/*
 **/Content/bin/*
+.idea/

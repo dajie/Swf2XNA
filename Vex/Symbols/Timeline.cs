@@ -13,7 +13,7 @@ namespace DDW.Vex
 	/// A timeline represents the activity defined within a symbol. 
 	/// The activity is defined using one Lifetime per symbol used.
 	/// </summary>
-	public class Timeline : IDefinition
+	public partial class Timeline : IDefinition
     {
         public uint Id { get; set; }
         private string name;
@@ -153,7 +153,7 @@ namespace DDW.Vex
                 {
                     if (Instances.Count > from[i] && Instances.Count > to[i])
                     {
-                        Vex.IInstance temp = Instances[to[i]];
+                        DDW.Vex.IInstance temp = Instances[to[i]];
                         Instances[to[i]] = Instances[from[i]];
                         Instances[to[i]].Depth = Instances[from[i]].Depth;
                         Instances[from[i]] = temp;
@@ -167,7 +167,7 @@ namespace DDW.Vex
         {
             if (Instances.Count > from && Instances.Count > to)
             {
-                Vex.IInstance temp = Instances[from];
+                DDW.Vex.IInstance temp = Instances[from];
                 Instances.RemoveAt(from);
                 Instances.Insert(to, temp);
             }

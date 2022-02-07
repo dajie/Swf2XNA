@@ -143,19 +143,19 @@ namespace DDW.Vex
             switch (type)
             {
                 case "DDW.Vex.Timeline":
-                    xs = new XmlSerializer(typeof(Vex.Timeline));
+                    xs = new XmlSerializer(typeof(DDW.Vex.Timeline));
                     break;
                 case "DDW.Vex.Symbol":
                     xs = GetShapeSerializer();
                     break;
                 case "DDW.Vex.Image":
-                    xs = new XmlSerializer(typeof(Vex.Image));
+                    xs = new XmlSerializer(typeof(DDW.Vex.Image));
                     break;
             }
 
             if (xs != null)
             {
-                result = (Vex.IDefinition)xs.Deserialize(fs);
+                result = (DDW.Vex.IDefinition)xs.Deserialize(fs);
             }
             fs.Close();
 
@@ -212,7 +212,7 @@ namespace DDW.Vex
             strokeAttributes.XmlElements.Add(attr);
             attrOverrides.Add(typeof(DDW.Vex.Shape), "Stroke", strokeAttributes);
 
-            XmlSerializer xs = new XmlSerializer(typeof(Vex.Symbol), attrOverrides);
+            XmlSerializer xs = new XmlSerializer(typeof(DDW.Vex.Symbol), attrOverrides);
 
             return xs;
         }
@@ -275,7 +275,7 @@ namespace DDW.Vex
 
                 if(vo.Definitions.ContainsKey(inst.ParentDefinitionId))
                 {
-                    Timeline parent = (Timeline)vo.Definitions[inst.ParentDefinitionId];
+                    Timeline parent = (DDW.Vex.Timeline)vo.Definitions[inst.ParentDefinitionId];
                     parent.AddInstance(inst);
                 }
             }
@@ -287,8 +287,8 @@ namespace DDW.Vex
             IInstance result;
 
             FileStream fs = new FileStream(dataPath, FileMode.Open);
-            XmlSerializer xs = new XmlSerializer(typeof(Vex.Instance));
-            result = (Vex.Instance)xs.Deserialize(fs);
+            XmlSerializer xs = new XmlSerializer(typeof(DDW.Vex.Instance));
+            result = (DDW.Vex.Instance)xs.Deserialize(fs);
             fs.Close();
             
             return result;

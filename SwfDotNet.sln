@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwfFormat", "SwfReader\SwfFormat.csproj", "{B5EAD89D-1195-4C78-8684-5A500182C682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vex", "Vex\Vex.csproj", "{AD12BD40-953E-407E-9D22-7F21B16535E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwfDump", "SwfDump\SwfDump.csproj", "{DF988C95-C383-4340-B23E-D3F01A2927D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5EAD89D-1195-4C78-8684-5A500182C682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EAD89D-1195-4C78-8684-5A500182C682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EAD89D-1195-4C78-8684-5A500182C682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EAD89D-1195-4C78-8684-5A500182C682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD12BD40-953E-407E-9D22-7F21B16535E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD12BD40-953E-407E-9D22-7F21B16535E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD12BD40-953E-407E-9D22-7F21B16535E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD12BD40-953E-407E-9D22-7F21B16535E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

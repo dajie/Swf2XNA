@@ -36,11 +36,11 @@ namespace DDW.Vex
         {
             return new Matrix(this.ScaleX, this.Rotate0, this.Rotate1, this.ScaleY, this.TranslateX, this.TranslateY);
         }
-        public Vex.Point Location
+        public DDW.Vex.Point Location
         {
             get
             {
-                return new Vex.Point(TranslateX, TranslateY);
+                return new DDW.Vex.Point(TranslateX, TranslateY);
             }
             set
             {
@@ -138,7 +138,7 @@ namespace DDW.Vex
             TranslateX += offsetX;
             TranslateY += offsetY;
 		}
-		public void Translate(Vex.Point p)
+		public void Translate(DDW.Vex.Point p)
 		{
             TranslateX += p.X;
             TranslateY += p.Y;

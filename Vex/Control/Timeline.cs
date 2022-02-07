@@ -8,7 +8,7 @@ namespace DDW.Vex
 	/// A timeline represents the activity defined within a symbol. 
 	/// The activity is defined using one Lifetime per symbol used.
 	/// </summary>
-	class Timeline
+	public partial class Timeline
 	{
 		// todo: ecapsulate these in an type when it is finalized
 		List<DateTime> startTimes;

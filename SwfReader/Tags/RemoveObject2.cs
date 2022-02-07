@@ -21,5 +21,8 @@ namespace DDW.Swf
 		{
 			w.WriteLine("Remove Object: " + this.Depth);
 		}
+		public void ToSwf(SwfWriter w)
+		{
+		}
 	}
 }

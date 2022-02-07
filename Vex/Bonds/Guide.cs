@@ -24,17 +24,17 @@ namespace DDW.Vex.Bonds
             }
         }
 
-        public Vex.Point StartPoint
+        public DDW.Vex.Point StartPoint
         {
             get
             {
                 return Bounds.Point;
             }
         }
-        public Vex.Point EndPoint { 
+        public DDW.Vex.Point EndPoint { 
             get 
             {
-                Vex.Point result;
+                DDW.Vex.Point result;
                 switch (GuideType)
                 {
                     case GuideType.Horizontal:
