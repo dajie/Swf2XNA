@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vex", "Vex\Vex.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwfDump", "SwfDump\SwfDump.csproj", "{DF988C95-C383-4340-B23E-D3F01A2927D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwfBitmapPacker", "SwfBitmapPacker\SwfBitmapPacker.csproj", "{2396E62B-174B-4207-9226-DFB133FEE97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdiRenderer", "GdiRenderer\GdiRenderer.csproj", "{6C2C163C-C661-4B1B-A257-6B5B42142993}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF988C95-C383-4340-B23E-D3F01A2927D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2396E62B-174B-4207-9226-DFB133FEE97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2396E62B-174B-4207-9226-DFB133FEE97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2396E62B-174B-4207-9226-DFB133FEE97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2396E62B-174B-4207-9226-DFB133FEE97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
