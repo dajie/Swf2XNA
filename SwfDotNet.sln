@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwfBitmapPacker", "SwfBitma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdiRenderer", "GdiRenderer\GdiRenderer.csproj", "{6C2C163C-C661-4B1B-A257-6B5B42142993}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VexTo2DPhysics", "VexTo2DPhysics\VexTo2DPhysics.csproj", "{A307367F-E9E4-4EF9-95D2-1AB7145BC9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VexPipelineReader", "VexPipelineReader\VexPipelineReader.csproj", "{6E64E759-71C1-49EF-BF2A-A40F80975B99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C2C163C-C661-4B1B-A257-6B5B42142993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A307367F-E9E4-4EF9-95D2-1AB7145BC9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A307367F-E9E4-4EF9-95D2-1AB7145BC9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A307367F-E9E4-4EF9-95D2-1AB7145BC9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A307367F-E9E4-4EF9-95D2-1AB7145BC9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E64E759-71C1-49EF-BF2A-A40F80975B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E64E759-71C1-49EF-BF2A-A40F80975B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E64E759-71C1-49EF-BF2A-A40F80975B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E64E759-71C1-49EF-BF2A-A40F80975B99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
